@@ -1,0 +1,99 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+p{
+padding:0;
+}
+
+li{
+    display: block;
+    float: left;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+h6{
+    font-size: 12px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+.auto-img{
+    width: 100%;
+    display: block;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 0;
+    background: transparent;/* 背景图透明 */
+}
+
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+textarea,input{
+    border: none;
+    outline: none;
+    background: no-repeat;
+}
+.oneTextOverflow{
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.towTextOverflow{
+ text-overflow: -o-ellipsis-lastline;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 2;
+ -webkit-box-orient: vertical;
+}

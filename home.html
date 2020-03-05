@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优悦音乐</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <audio src="http://m7.music.126.net/20200106192320/7499add736c5566e188fca924602cd33/ymusic/525d/540b/510f/e7403c0f89ca574eea7dfea2ac7601f5.mp3" id="audio" data-play="0"></audio>
+    <div class="home">
+        <header>
+            <div class="header"></div>
+            <div class="header-top">
+                <div class="header-my fl">
+                    <span class="fl"></span>
+                    <div class="header-my-name fl">大树</div>
+                </div>
+                <div class="header-title fl">音乐馆</div>
+                <div class="header-icor fl">
+                    <span class=" fr"></span>
+                </div>
+            </div>
+
+        </header>
+
+        <center>
+            <div class="center-recommend">
+                <div class="center-lbt">
+                    <span class="lbt">
+                        <img src="./img/轮播图.png" alt="">
+                    </span>
+                </div>
+                <div class="center-bottom">
+                    <span>
+                        <i class="center-bottom-i1"></i>
+                        <p>电台</p>
+                    </span>
+                    <span>
+                        <i class="center-bottom-i2"></i>
+                        <p>歌单</p>
+                    </span>
+                    <span>
+                        <i class="center-bottom-i3"></i>
+                        <p>排行</p>
+                    </span>
+                </div>
+                <div class="center-list">
+                    <div class="center-list-title clearfix">
+                        <div class="center-list-title-left fl">最新歌单</div>
+                        <div class="center-list-title-right fr">
+                            全部</div>
+                    </div>
+                    <div id="center-list-lists" class="center-list-lists clearfix">
+
+                    </div>
+                </div>
+            </div>
+            <div class="center-recommend-songsList">
+                <div class="recommend-songsList-title clearfix">
+                    <div class="songsList-title fl">
+                        <i class="fl"></i>
+                        <div class="songsList-title-name fl">
+                            歌单
+                        </div>
+                    </div>
+                    <i class="fr"></i>
+                </div>
+                <div class="recommend-songsList-details">
+                    <div class="details-matter clearfix">
+                        <div class="details-matter-left fl">
+                            <img class="auto-img details-matter-img" src="">
+                        </div>
+                        <div class="details-matter-right fr">
+                            <div class="details-matter-name towTextOverflow">
+
+                            </div>
+                            <div class="details-matter-songname towTextOverflow">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="details-icon clearfix">
+                        <div class="details-icon-child">
+                            <i class="icon-child-i1"></i>
+                            <div class="details-icon-child-text">分享</div>
+                        </div>
+                        <div class="details-icon-child">
+                            <i class="icon-child-i2"></i>
+                            <div class="details-icon-child-text">下载</div>
+                        </div>
+                        <div class="details-icon-child">
+                            <i class="icon-child-i3"></i>
+                            <div class="details-icon-child-text">留言</div>
+                        </div>
+                        <div class="details-icon-child">
+                            <i class="icon-child-i4"></i>
+                            <div class="details-icon-child-text">多选</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recommend-songsList-menu clearfix">
+                    <div class="songsList-menu-top clearfix">
+                        <div class="songsList-menu-title fl">歌曲列表</div>
+                        <div class="songsList-menu-icon fr">
+                            <i></i>
+                            <div class="songList-menu-iconName fl">播放全部</div>
+                            <span>99</span>
+                        </div>
+                    </div>
+                    <div class="songsList-menu-center">
+
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <!-- 播放状态栏 -->
+        <footer class="clearfix">
+            <div class="footer">
+
+                <!-- 进度条 -->
+                <!-- <div class="footer-top">
+                    <div class="footer-top-progress">
+                    </div>
+                </div> -->
+
+                <!-- 进度条 end -->
+                <div class="footer-bottom clearfix">
+                    <div class="footer-bottom-left clearfix fl">
+                        <img src="http://p2.music.126.net/gNbAlXamNjhR2j3aOukNhg==/109951164232796511.jpg"
+                            class="footer-bottom-img auto-img fl">
+                        <div class="footer-songName fl">
+                            <div class="songName1 oneTextOverflow">我曾</div>
+                            <div class="songName2 oneTextOverflow">隔壁老樊</div>
+                        </div>
+                    </div>
+                    <!-- 播放按钮 -->
+                    <div class="footer-bottom-right clearfix fr">
+                        <span class="footer-bottom-right-play"></span>
+                        <span class="footer-bottom-right-next"></span>
+                        <span class="footer-bottom-right-menu"></span>
+                    </div>
+
+                    <!-- 播放按钮 end-->
+                </div>
+            </div>
+        </footer>
+        <!-- 播放状态栏 end-->
+
+        <!-- 最近播放栏 -->
+        <div class="lately">
+            <div class="lately-box">
+                <div class="lately-box-top clearfix">
+                    <i class="lat-icon fl"></i>
+                    <div class="lately-box-topName fl">
+                        &nbsp;&nbsp;顺序播放
+                    </div>
+                    <i class="del fr"></i>
+                </div>
+                <div class="lately-box-bottom">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 加载提示页面-->
+        <div class="prompt">
+            <div class="prompt-box">
+                <i class="prompt1"></i>
+                <i class="prompt2"></i>
+                <i class="prompt3"></i>
+                <i class="prompt4"></i>
+                <i class="prompt5"></i>
+            </div>
+        </div>
+
+        <!-- 播放页面 -->
+        <div class="play">
+            <div class="play-back play-page"></div>
+            <div class="play-top">
+                <div class="header"></div>
+                <div class="play-title clearfix">
+                    <div class="paly-return fl"></div>
+                    <div class="play-songinfo fl">
+                        <div class="play-song oneTextOverflow">天堂的魔鬼</div>
+                        <div class="play-artist oneTextOverflow">邓紫棋</div>
+                    </div>
+                    <div class="paly-share fr">
+                    </div>
+                </div>
+                <div class="play-lyric">
+                    <div class="play-lyric-box">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="play-bottom clearfix">
+                <div class="play-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="play-bottom-progress clearfix">
+                    <span class="num1 fl">00:00</span>
+                    <div class="play-progress fl">
+                        <div class="bound fl"></div>
+                        <div class="activate fl"></div>
+                        <div class="noactivate fl"></div>
+                        <div class="sliding fl"></div>
+                    </div>
+                    <span class="num2 fr">00:00</span>
+                </div>
+                <div class="play-icon2 clearfix">
+                    <div class="play-icon2-cir fl"></div>
+                    <div class="play-icon2-pri fl"></div>
+                    <div class="play-icon2-play fl"></div>
+                    <div class="play-icon2-next fl"></div>
+                    <div class="play-icon2-menu  fl"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/rem.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,873 @@
+@import'iconfont.css';
+@import'bootstrap.min.css';
+@import'font-awesome.min.css';
+@import'basic.css';
+
+.home{
+	background: url(../img/背景图.jpg)no-repeat center center;
+	height: 6.67rem;
+	width: 100%;
+	position: relative;
+	header{
+		color: RGB(231,75,68);
+		background: rgba(13,13,13,0.5);
+		height: .65rem;
+		.header{
+			height: .18rem;
+		}
+		.header-top{
+			line-height: .32rem;
+			padding: 0 10px;
+			font-size: .14rem;
+			height: .32rem;
+			.header-my{
+				width: calc(~'1 / 3 * 100%');
+				height: .32rem;
+				span{
+					display: block;
+					width: .26rem;
+					height: .26rem;
+					border-radius:50%;
+					background: url(http://img4.imgtn.bdimg.com/it/u=1368697707,2.9537329&fm=26&gp=0.jpg)no-repeat center center;
+					margin-top: .04rem; 
+				}
+				.header-my-name{
+					font-size: .12rem;
+					height: .32rem;
+					line-height: .32rem;
+					margin-left: .05rem;
+					font-weight: bold;
+				}
+			}
+			.header-title{
+				width: calc(~'1 / 3 * 100%');
+				text-align: center;
+				font-size: .18rem;
+				font-weight: bold;
+			}
+			.header-icor{
+				width: calc(~'1 / 3 * 100%');
+				height: .32rem;
+				span{
+					display: block;
+					width: .24rem;
+					height: .24rem;
+					background: url(../icon/搜索.png)no-repeat center center;
+					margin-top: .09rem; 
+					background-size: .24rem .24rem;
+				}
+			}
+		}
+
+		
+	}
+	center{
+		height: calc(~'100% - 1.25rem');
+		overflow-y: auto;
+		.center-recommend{
+			.center-lbt{
+				width: 100%;
+				height: 1.8rem;
+				overflow: hidden;
+				.lbt{
+					width: 100%;
+					img{
+						width: 100%;
+						display: block;
+					}
+				}
+			}
+	
+			.center-bottom{
+				height: 1.1rem;
+				font-size: .16rem;
+				width: 100%;
+				background: rgba(255,255,255,.3);
+				span{
+					width: calc(~'100% / 3');
+					text-align: center;
+					display: block;
+					float: left;
+					height: .9rem;
+					color: #ff5249;
+					i{
+						margin:0 auto;
+						display: block;
+						width: .4rem;
+						height: .4rem;
+						margin-top: .15rem;
+					}
+					.center-bottom-i1{
+						background: url(../icon/电台.png)no-repeat center center;
+						background-size: .4rem .4rem;
+					}
+					.center-bottom-i2{
+						background: url(../icon/歌单.png)no-repeat center center;
+						background-size: .4rem .4rem;
+					}
+					.center-bottom-i3{
+						background: url(../icon/排行榜.png)no-repeat center center;
+						background-size: .4rem .4rem;
+					}
+					p{
+						text-align: center;
+						// float: left;
+						margin: .1rem 0 0 0;
+					}
+				}
+			}
+	
+			.center-list{
+				height: .32rem;
+				line-height: .32rem;
+				width: 100%;
+				background: #fff;
+				.center-list-title{
+					padding: 0 .1rem;
+					.center-list-title-left{
+						font-size: .16rem;
+					}
+					.center-list-title-right {
+						font-size: .14rem;
+					}
+				}
+				.center-list-lists{
+					width: 100%;
+					padding: .1rem 0;
+					.list-lists-child{
+						width: calc(~'100% / 3 - .09rem');
+						background: rgba(255,255,255,.5);
+						float: left;
+						margin:0 0 .1rem .07rem;
+						.lists-img-box{
+							width: 100%;
+							height: 1.15rem;
+							.lists-img{
+								width: 100%;
+								position: relative;
+								.lists-vv-box{
+									width: 100%;
+									height: .24rem;
+									background: rgba(255,255,255);
+									line-height: .24rem;
+									position: absolute;
+									display: block;
+									bottom:0;
+									left:0;
+									font-size: .14rem;
+									color: #000;
+									span{
+										width: .16rem;
+										height: .16rem;
+										display: block;
+										margin-top:.04rem; 
+										z-index: 8;
+										float: right;
+										margin: .05rem .05rem 0 .05rem; 
+										background: url(../icon/耳机.png)no-repeat center center;
+										background-size: .16rem .16rem;
+									}
+									.lists-vv{
+										float: right;
+										display: block;
+										padding: 0 .05rem; 
+									}
+								}
+							}
+						}
+						.lists-name{
+							font-size: .13rem;
+							width: 100%;
+							margin:.1rem 0;
+							padding: 0 .05rem; 
+							line-height: .2rem;
+							text-align: left;
+							display: block;
+							height: .4rem;
+							color: #ff5249;
+						}
+					}
+				}
+			}
+		}
+		
+		.center-recommend-songsList{
+			display: none;
+			height: 100%;
+			width: 100%;
+			overflow-y: auto;
+			background: rgba(255, 255, 255, .4);
+			.recommend-songsList-title{
+				position: sticky;
+				left:0;
+				top:0rem;
+				background: rgba(255, 255, 255);
+				.songsList-title{
+					.songsList-title-name{
+						font-size: .18rem;
+						padding: .08rem 0;
+					}
+				}
+				i{
+					width: .22rem;
+					height: .22rem;
+					display: block;
+					margin: .1rem .1rem;
+				}
+				i:nth-child(1){
+					background: url(../icon/返回.png)no-repeat center center;
+					background-size: .22rem .22rem;
+				}
+				i:nth-child(2){
+					background: url(../icon/menu.png)no-repeat center center;
+					background-size: .22rem .22rem;
+				}
+			}
+			.recommend-songsList-details{
+				width: 100%;
+				background: RGB(200,235,250);
+				padding: .1rem .2rem;
+				.details-matter{
+					.details-matter-left{
+						width: .7rem;
+						height: .7rem;
+						margin-top: .1rem;
+						background: #ff5249;
+						overflow: hidden;
+					}
+					.details-matter-right{
+						width: calc(~'100% - .7rem');
+						height: .24rem;
+						text-align: left;
+						padding-left: .1rem;
+						.details-matter-name{
+							width: 100%;
+							font-size: .16rem;
+							padding:.1rem 0;
+						}
+						.details-matter-songname{
+							font-size: .14rem;
+						}
+					}
+				}
+				.details-icon{
+					padding: .2rem 0 .4rem;
+					i{
+						width: .4rem;
+						height: .4rem;
+						margin: 0 auto;
+						display: block;
+						color: #333;
+					}
+					
+					.details-icon-child{
+						width: calc(~'100% / 4');
+						font-size: .14rem;
+						text-align: center;
+						float: left;
+						.icon-child-i1{
+							background: url(../icon/分享.png)no-repeat center center;
+							background-size: .28rem .28rem;
+						}
+						.icon-child-i2{
+							background: url(../icon/下载1.png)no-repeat center center;
+							background-size: .32rem .32rem;
+						}
+						.icon-child-i3{
+							background: url(../icon/留言.png)no-repeat center center;
+							background-size: .40rem .40rem;
+						}
+						.icon-child-i4{
+							background: url(../icon/多选框.png)no-repeat center center;
+							background-size: .26rem .26rem;
+						}
+					}
+				}
+				
+			}
+
+			.recommend-songsList-menu{
+				background: #fff;
+				border-top-left-radius: .2rem;
+				border-top-right-radius: .2rem;		
+				margin-top: -.2rem;
+				padding-bottom: .2rem;
+				.songsList-menu-top{
+					font-size: .16rem;
+					background: rgba(217,217,217,.5);
+					padding: .05rem .15rem;
+					color: #333;
+					line-height: .28rem;
+					.songsList-menu-title{
+						text-align: left;
+					}
+					.songsList-menu-icon{
+						width: 1.2rem;
+						font-size: .14rem;
+						i{
+							float: left;
+							display: block;
+							width: .28rem;
+							height: .28rem;
+							background: url(../icon/播放1.png)no-repeat center center;
+							background-size: .28rem .28rem;
+						}
+						span{
+							color: #666;
+							line-height: .28rem;
+							font-size: .12rem;
+						}
+					}
+				}
+				
+				.songsList-menu-center{
+					// height: .4rem;
+					width: 100%;
+					color: #333;
+					.menu-center{
+						margin: .1rem .1rem .1rem .05rem;
+						.border-left{
+							width:.04rem;
+							height:.4rem;
+							background:#ff5249;
+							display: block;
+							opacity: 0;
+						}
+						.menu-center-fl{
+							width: calc(~'100% - .15rem - .54rem');
+							padding-left: .04rem;
+							.tj{
+								width: .180rem;
+								height: .18rem;
+								padding: .2rem;
+								background: url(../icon/添加.png)no-repeat center center;
+								background-size: .18rem .18rem;
+							}
+							.menu-center-song{
+								width: calc(~'100% - .62rem');
+								text-align: left;
+								display: block;
+								.menu-center-songName{
+									font-size: .14rem;
+								}
+								.menu-center-songer{
+									font-size: .12rem;
+								}
+							}
+						}
+						
+						.menu-center-fr{
+							width: .54rem;
+							i{
+								width: .220rem;
+								height: .22rem;
+								float: left;
+							}
+							i:nth-child(1){
+								background: url(../icon/视频.png)no-repeat center center;
+								background-size: .22rem .22rem;
+								margin: .07rem .1rem 0 0;
+							}
+							i:nth-child(2){
+								background: url(../icon/menu.png)no-repeat center center;
+								background-size: .22rem .22rem;
+								margin: .07rem 0rem 0 0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+	
+	// 播放状态栏
+	footer{
+		position: fixed;
+		height: .62rem;
+		width: 100%;
+		bottom: 0;
+		.footer{
+			background: rgba(13,13,13,0.8);
+			// position: relative;
+			// .footer-top{
+			// 	width: 100%;
+			// 	height: .08rem;
+			// 	float: left;
+			// 	.footer-top-progress{
+			// 		width: 100%;
+			// 		height: .05rem;
+			// 		position: relative;
+			// 		
+			// 	}
+			// }
+			.footer-bottom{
+				height: .75rem;
+				.footer-bottom-left{
+					width: calc(~'100% - 1.3rem');
+					.footer-bottom-img{
+						display: block;
+						width: .55rem;
+						height: .55rem;
+						margin: 0.03rem .15rem 0;
+						border-radius:50%;
+						float: left;
+						animation: imgroll 10s linear 0s infinite;
+						animation-play-state:paused;
+					}
+
+					@keyframes imgroll {
+						from{
+							transform: rotate(0deg)
+						}
+						to{
+							transform: rotate(360deg)
+						}
+					}
+
+					.footer-songName{
+						width: calc(~'100% - .9rem');
+						color: #ff5249;
+						.songName1{
+							margin-top: .1rem;
+							font-size: .14rem;
+						}
+						.songName2{
+							font-size: .12rem;
+						}
+					}
+				}
+				.footer-bottom-right{
+					width: 1.3rem;
+					height: .62rem;
+					span{
+						height: 100%;
+						display: block;
+						float: left;
+					}
+					.footer-bottom-right-menu{
+						width: .4rem;
+						background-image: url(../icon/展开菜单.png);
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: .28rem .28rem;
+					}
+					.footer-bottom-right-next{
+						width: .4rem;
+						background-image: url(../icon/下一首.png);
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: .28rem .28rem;
+					}
+					.footer-bottom-right-play{
+						width: .5rem;
+						background-image: url(../icon/播放.png);
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: .26rem .26rem;
+					}
+				}
+			}
+	
+		}
+	}
+
+	// 最近播放栏
+	.lately{
+		width: 100%;
+		height: 100%;
+		float: left;
+		position: fixed;
+		top: 100%;
+		display: none;
+		background: rgba(13,13,13,0.5);
+		.lately-box{
+			width: 100%;
+			height: 50%;
+			position: relative;
+			top: 50%;
+			background: #fff;
+			font-size: .16rem;
+			.lately-box-top{
+				padding: .10rem .15rem; 
+				font-size: .14rem;
+				border-bottom: 1px solid #F2F2F2;
+				box-shadow: 0 5px 10px 1px rgba(13,13,13,0.3);
+				.lately-box-topName{
+					height: .24rem;
+					line-height: .24rem;
+				}
+				
+				.lat-icon{
+					background: url(../icon/列表循环.png)no-repeat center center;
+					background-size: .24rem .24rem;
+				}
+			}
+			.lately-box-bottom{
+				overflow-y: auto;
+				height: calc(~'100% - .45rem');
+				padding: 10px 0;
+				.lately-list{
+					width: 100%;
+					padding: .05rem .15rem ; 
+					border-bottom: 1px solid #F2F2F2;
+					.lately-list-song{
+						width: calc(~'100% - .58rem');
+						.lately-order{
+							width: .34rem;
+							height: .34rem;
+							line-height: .34rem;
+							margin: .02rem .1rem 0 0;
+							border-radius:50%;
+							overflow: hidden;
+							.lately-num{
+								font-size: .14rem;
+								text-align: center;
+							}
+							.lately-img{
+								display: none;
+							}
+						}
+						.lately-song{
+							width: calc(~'100% - .54rem');
+							.lately-song-name{
+								font-size: .14rem;
+							}
+							.lately-song-singer{
+								font-size: .12rem;
+							}
+						}
+					}
+					
+					.lately-list-icon{
+						padding: .08rem 0;
+
+						i{
+							float: right;
+							margin-left: .1rem;
+						}
+
+						span{
+							width: .24rem;
+							height: .24rem;
+							display: block;
+							float: right;
+							background: url("../icon/爱心2.png") no-repeat center center;
+							background-size: .24rem .24rem;
+						}
+					}
+				}
+			}
+			i{
+				width: .24rem;
+				height: .24rem;
+				display: block;
+			}
+			.del{
+				background: url(../icon/del.png)no-repeat center center;
+				background-size: .24rem .24rem;
+			}
+		}
+	}
+
+	//加载栏
+	.prompt{
+		width: 100%;
+		height: 100%;
+		background: rgba(255,255,255,.5);
+		z-index: 100;
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		
+		.prompt-box{
+			width: .5rem;
+			height: .4rem;
+			margin: calc(~'6.76rem / 2') auto 0;
+			i{
+				width: .03rem;
+				margin: 0 .03rem;
+				height: .4rem;
+				background: #000;
+				display: block;
+				float: left;
+			}
+			.prompt1{
+				animation: prompts .3s linear 0s infinite alternate;
+			}
+			.prompt2{
+				animation: prompts .3s linear .1s infinite alternate;
+			}
+			.prompt3{
+				animation: prompts .3s linear .2s infinite alternate;
+			}
+			.prompt4{
+				animation: prompts .3s linear .3s infinite alternate;
+			}
+			.prompt5{
+				animation: prompts .3s linear .4s infinite alternate;
+			}
+		}
+	}
+
+	.play{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 100%;
+		display: none;
+		.play-back{
+
+			background: url(../img/播放.jpg)no-repeat center center;
+			background-size: cover;
+		}
+		.play-page{
+			width: 100%;
+			height: 100%;
+			float: left;
+			background-repeat: no-repeat;
+			background-position: center;
+			-webkit-filter: blur(5px);
+			-moz-filter: blur(5px);
+			-o-filter: blur(5px);
+			-ms-filter: blur(5px);
+			filter: blur(5px);
+		}
+		
+		.play-top{
+			height: calc(~'100% - 1.3rem');
+			width: 100%;
+			z-index: 3;
+			position: relative;
+			.header{
+				height: .18rem;
+				background: #000;
+			}
+			.play-title{
+				height: .45rem;
+				position: relative;
+				margin: .1rem 0;
+				.paly-return{
+					width: .22rem;
+					height: .22rem;
+					margin: .1rem .1rem;
+					position: absolute;
+					background: url(../icon/返回.png)no-repeat center center;
+					background-size: .22rem .22rem;
+				}
+
+				.play-songinfo{
+					width: calc(~'100% - .88rem');
+					position: absolute;
+					left: 0;
+					top: 0;
+					right: 0;
+					margin: 0 auto;
+					text-align: center;
+					color: #f7554c;
+					.play-song{
+						font-size: .16rem;
+					}
+					.play-artist{
+						font-size: .14rem;
+					}
+				}
+
+				.paly-share{
+					width: .22rem;
+					height: .22rem;
+					margin: .1rem .1rem;
+					position: absolute;
+					right: 0;
+					background: url(../icon/分享.png)no-repeat center center;
+					background-size: .22rem .22rem;
+				}
+			}
+
+			.play-lyric{
+				width: 100%;
+				height: calc(~'100% - .83rem');
+				z-index: 3;
+				position: absolute;
+				overflow: hidden;
+				.play-lyric-box{
+					position: absolute;
+					left: 0;
+					top: 50%;
+					right: 0;
+					margin: 0 auto;
+					p{
+						width: 100%;
+						height: .2rem;
+						z-index: 3;
+						font-size: .16rem;
+						text-align: center;
+						color: red;
+						margin: 0  0 .15rem;
+					}
+					.active{
+						color: #D3D5F5;
+					}
+				}
+			}
+
+		}
+
+		.play-bottom{
+			width: 100%;
+			height: 1.4rem;
+			position: absolute;
+			bottom: 0;
+			background: #D3D5F5;
+			z-index: 3;
+			.play-icon1{
+				width: 100%;
+				height: .4rem;
+				padding: .1rem .2rem  0;
+				span{
+					width: calc(~'(100% - .2rem) /5');
+					height: .3rem;
+					display: block;
+					float: left;
+				}
+				span:nth-child(1){
+					background: url(../icon/爱心3.png);
+					
+					background-repeat: no-repeat;
+					background-position:center center ;
+					background-size: .24rem .24rem;
+				}
+				span:nth-child(2){
+					background: url(../icon/视频.png);
+					
+					background-repeat: no-repeat;
+					background-position:center center ;
+					background-size: .24rem .24rem
+				}
+				span:nth-child(3){
+					background: url(../icon/下载.png);
+					
+					background-repeat: no-repeat;
+					background-position:center center ;
+					background-size: .24rem .24rem
+				}
+				span:nth-child(4){
+					background: url(../icon/留言-断点.png);
+					
+					background-repeat: no-repeat;
+					background-position:center center ;
+					background-size: .24rem .24rem
+				}
+				span:nth-child(5){
+					background: url(../icon/menu.png);
+					
+					background-repeat: no-repeat;
+					background-position:center center ;
+					background-size: .24rem .24rem
+				}
+			}
+			.play-bottom-progress{
+				padding: .15rem .15rem;
+				position: relative;
+				span{
+					width:.29rem;
+					height:.18rem;
+					font-size: .12rem;
+					color: #ff5249;
+					margin: -.07rem 0 0;
+				}
+				.play-progress{
+					width: 2.80rem;
+					height: .12rem;
+					margin: 0 .08rem 0 .31rem;
+					position: absolute;
+					.activate{
+						width: calc(~'100% ');
+						height: .05rem;
+						background: #ff5249;
+						border-radius: 5rem;
+						position: absolute;
+					}
+					.noactivate{
+						z-index: 2;
+						height: .05rem;
+						background: #fff;
+						border-radius: 5rem;
+						position: absolute;
+					}
+					.sliding{
+						z-index: 3;
+						width: .05rem;
+						height: .1rem;
+						left: .0rem;
+						border-radius: 5rem;
+						top: 0;
+						margin-top:-.02rem; 
+						position: absolute;
+						background: blue;
+					}
+					.bound{
+						width: calc(~'100% ');
+						height: .12rem;
+						z-index: 4;
+						position: absolute;
+						top: -.03rem;
+					}
+				}
+				
+			}
+			.play-icon2{	
+				width:100%;
+				height:.58rem;
+				padding:0 .15rem;
+				.play-icon2-cir{
+					width:15% ;
+					height: .4rem;
+					background: url(../icon/随机播放.png) no-repeat center center;
+					background-size: .2rem .2rem;
+				}
+				.play-icon2-pri{
+					width:15% ;
+					height: .4rem;
+					background: url(../icon/上一首.png) no-repeat center center;
+					background-size: .30rem .30rem;
+				}
+				.play-icon2-play{
+					width:35% ;
+					height: .4rem;
+					background: url(../icon/播放.png) no-repeat center center;
+					background-size: .35rem .35rem;
+				}
+				.play-icon2-next{
+					width:15% ;
+					height: .4rem;
+					background: url(../icon/下一首.png) no-repeat center center;
+					background-size: .30rem .30rem;
+				}
+				.play-icon2-menu{
+					background: url(../icon/menu.png) no-repeat center center;
+					width:15% ;
+					height: .4rem;				
+					background-size: .2rem .2rem;
+				}
+			}
+			
+		}
+		
+	}
+
+	
+}
+
+@keyframes prompts{
+	0%{
+		transform: scale(1,1);
+	}
+	100%{
+
+		transform: scale(.2,.2);
+	}
+}

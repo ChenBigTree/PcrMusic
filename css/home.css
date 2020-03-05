@@ -1,0 +1,806 @@
+@import 'iconfont.css';
+@import 'bootstrap.min.css';
+@import 'font-awesome.min.css';
+@import 'basic.css';
+.home {
+  background: url(../img/背景图.jpg) no-repeat center center;
+  height: 6.67rem;
+  width: 100%;
+  position: relative;
+}
+.home header {
+  color: #e74b44;
+  background: rgba(13, 13, 13, 0.5);
+  height: 0.65rem;
+}
+.home header .header {
+  height: 0.18rem;
+}
+.home header .header-top {
+  line-height: 0.32rem;
+  padding: 0 10px;
+  font-size: 0.14rem;
+  height: 0.32rem;
+}
+.home header .header-top .header-my {
+  width: calc(1 / 3 * 100%);
+  height: 0.32rem;
+}
+.home header .header-top .header-my span {
+  display: block;
+  width: 0.26rem;
+  height: 0.26rem;
+  border-radius: 50%;
+  background: url(http://img4.imgtn.bdimg.com/it/u=1368697707,2.9537329&fm=26&gp=0.jpg) no-repeat center center;
+  margin-top: 0.04rem;
+}
+.home header .header-top .header-my .header-my-name {
+  font-size: 0.12rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  margin-left: 0.05rem;
+  font-weight: bold;
+}
+.home header .header-top .header-title {
+  width: calc(1 / 3 * 100%);
+  text-align: center;
+  font-size: 0.18rem;
+  font-weight: bold;
+}
+.home header .header-top .header-icor {
+  width: calc(1 / 3 * 100%);
+  height: 0.32rem;
+}
+.home header .header-top .header-icor span {
+  display: block;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(../icon/搜索.png) no-repeat center center;
+  margin-top: 0.09rem;
+  background-size: 0.24rem 0.24rem;
+}
+.home center {
+  height: calc(100% - 1.25rem);
+  overflow-y: auto;
+}
+.home center .center-recommend .center-lbt {
+  width: 100%;
+  height: 1.8rem;
+  overflow: hidden;
+}
+.home center .center-recommend .center-lbt .lbt {
+  width: 100%;
+}
+.home center .center-recommend .center-lbt .lbt img {
+  width: 100%;
+  display: block;
+}
+.home center .center-recommend .center-bottom {
+  height: 1.1rem;
+  font-size: 0.16rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.home center .center-recommend .center-bottom span {
+  width: calc(100% / 3);
+  text-align: center;
+  display: block;
+  float: left;
+  height: 0.9rem;
+  color: #ff5249;
+}
+.home center .center-recommend .center-bottom span i {
+  margin: 0 auto;
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-top: 0.15rem;
+}
+.home center .center-recommend .center-bottom span .center-bottom-i1 {
+  background: url(../icon/电台.png) no-repeat center center;
+  background-size: 0.4rem 0.4rem;
+}
+.home center .center-recommend .center-bottom span .center-bottom-i2 {
+  background: url(../icon/歌单.png) no-repeat center center;
+  background-size: 0.4rem 0.4rem;
+}
+.home center .center-recommend .center-bottom span .center-bottom-i3 {
+  background: url(../icon/排行榜.png) no-repeat center center;
+  background-size: 0.4rem 0.4rem;
+}
+.home center .center-recommend .center-bottom span p {
+  text-align: center;
+  margin: 0.1rem 0 0 0;
+}
+.home center .center-recommend .center-list {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  width: 100%;
+  background: #fff;
+}
+.home center .center-recommend .center-list .center-list-title {
+  padding: 0 0.1rem;
+}
+.home center .center-recommend .center-list .center-list-title .center-list-title-left {
+  font-size: 0.16rem;
+}
+.home center .center-recommend .center-list .center-list-title .center-list-title-right {
+  font-size: 0.14rem;
+}
+.home center .center-recommend .center-list .center-list-lists {
+  width: 100%;
+  padding: 0.1rem 0;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child {
+  width: calc(100% / 3 - .09rem);
+  background: rgba(255, 255, 255, 0.5);
+  float: left;
+  margin: 0 0 0.1rem 0.07rem;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child .lists-img-box {
+  width: 100%;
+  height: 1.15rem;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child .lists-img-box .lists-img {
+  width: 100%;
+  position: relative;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child .lists-img-box .lists-img .lists-vv-box {
+  width: 100%;
+  height: 0.24rem;
+  background: rgba(255, 255, 255);
+  line-height: 0.24rem;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  font-size: 0.14rem;
+  color: #000;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child .lists-img-box .lists-img .lists-vv-box span {
+  width: 0.16rem;
+  height: 0.16rem;
+  display: block;
+  margin-top: 0.04rem;
+  z-index: 8;
+  float: right;
+  margin: 0.05rem 0.05rem 0 0.05rem;
+  background: url(../icon/耳机.png) no-repeat center center;
+  background-size: 0.16rem 0.16rem;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child .lists-img-box .lists-img .lists-vv-box .lists-vv {
+  float: right;
+  display: block;
+  padding: 0 0.05rem;
+}
+.home center .center-recommend .center-list .center-list-lists .list-lists-child .lists-name {
+  font-size: 0.13rem;
+  width: 100%;
+  margin: 0.1rem 0;
+  padding: 0 0.05rem;
+  line-height: 0.2rem;
+  text-align: left;
+  display: block;
+  height: 0.4rem;
+  color: #ff5249;
+}
+.home center .center-recommend-songsList {
+  display: none;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.4);
+}
+.home center .center-recommend-songsList .recommend-songsList-title {
+  position: sticky;
+  left: 0;
+  top: 0rem;
+  background: rgba(255, 255, 255);
+}
+.home center .center-recommend-songsList .recommend-songsList-title .songsList-title .songsList-title-name {
+  font-size: 0.18rem;
+  padding: 0.08rem 0;
+}
+.home center .center-recommend-songsList .recommend-songsList-title i {
+  width: 0.22rem;
+  height: 0.22rem;
+  display: block;
+  margin: 0.1rem 0.1rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-title i:nth-child(1) {
+  background: url(../icon/返回.png) no-repeat center center;
+  background-size: 0.22rem 0.22rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-title i:nth-child(2) {
+  background: url(../icon/menu.png) no-repeat center center;
+  background-size: 0.22rem 0.22rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details {
+  width: 100%;
+  background: #c8ebfa;
+  padding: 0.1rem 0.2rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-matter .details-matter-left {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-top: 0.1rem;
+  background: #ff5249;
+  overflow: hidden;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-matter .details-matter-right {
+  width: calc(100% - .7rem);
+  height: 0.24rem;
+  text-align: left;
+  padding-left: 0.1rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-matter .details-matter-right .details-matter-name {
+  width: 100%;
+  font-size: 0.16rem;
+  padding: 0.1rem 0;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-matter .details-matter-right .details-matter-songname {
+  font-size: 0.14rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon {
+  padding: 0.2rem 0 0.4rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon i {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0 auto;
+  display: block;
+  color: #333;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon .details-icon-child {
+  width: calc(100% / 4);
+  font-size: 0.14rem;
+  text-align: center;
+  float: left;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon .details-icon-child .icon-child-i1 {
+  background: url(../icon/分享.png) no-repeat center center;
+  background-size: 0.28rem 0.28rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon .details-icon-child .icon-child-i2 {
+  background: url(../icon/下载1.png) no-repeat center center;
+  background-size: 0.32rem 0.32rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon .details-icon-child .icon-child-i3 {
+  background: url(../icon/留言.png) no-repeat center center;
+  background-size: 0.4rem 0.4rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-details .details-icon .details-icon-child .icon-child-i4 {
+  background: url(../icon/多选框.png) no-repeat center center;
+  background-size: 0.26rem 0.26rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu {
+  background: #fff;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  margin-top: -0.2rem;
+  padding-bottom: 0.2rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-top {
+  font-size: 0.16rem;
+  background: rgba(217, 217, 217, 0.5);
+  padding: 0.05rem 0.15rem;
+  color: #333;
+  line-height: 0.28rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-top .songsList-menu-title {
+  text-align: left;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-top .songsList-menu-icon {
+  width: 1.2rem;
+  font-size: 0.14rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-top .songsList-menu-icon i {
+  float: left;
+  display: block;
+  width: 0.28rem;
+  height: 0.28rem;
+  background: url(../icon/播放1.png) no-repeat center center;
+  background-size: 0.28rem 0.28rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-top .songsList-menu-icon span {
+  color: #666;
+  line-height: 0.28rem;
+  font-size: 0.12rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center {
+  width: 100%;
+  color: #333;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center {
+  margin: 0.1rem 0.1rem 0.1rem 0.05rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .border-left {
+  width: 0.04rem;
+  height: 0.4rem;
+  background: #ff5249;
+  display: block;
+  opacity: 0;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fl {
+  width: calc(100% - .15rem - .54rem);
+  padding-left: 0.04rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fl .tj {
+  width: 0.18rem;
+  height: 0.18rem;
+  padding: 0.2rem;
+  background: url(../icon/添加.png) no-repeat center center;
+  background-size: 0.18rem 0.18rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fl .menu-center-song {
+  width: calc(100% - .62rem);
+  text-align: left;
+  display: block;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fl .menu-center-song .menu-center-songName {
+  font-size: 0.14rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fl .menu-center-song .menu-center-songer {
+  font-size: 0.12rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fr {
+  width: 0.54rem;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fr i {
+  width: 0.22rem;
+  height: 0.22rem;
+  float: left;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fr i:nth-child(1) {
+  background: url(../icon/视频.png) no-repeat center center;
+  background-size: 0.22rem 0.22rem;
+  margin: 0.07rem 0.1rem 0 0;
+}
+.home center .center-recommend-songsList .recommend-songsList-menu .songsList-menu-center .menu-center .menu-center-fr i:nth-child(2) {
+  background: url(../icon/menu.png) no-repeat center center;
+  background-size: 0.22rem 0.22rem;
+  margin: 0.07rem 0rem 0 0;
+}
+.home footer {
+  position: fixed;
+  height: 0.62rem;
+  width: 100%;
+  bottom: 0;
+}
+.home footer .footer {
+  background: rgba(13, 13, 13, 0.8);
+}
+.home footer .footer .footer-bottom {
+  height: 0.75rem;
+}
+.home footer .footer .footer-bottom .footer-bottom-left {
+  width: calc(100% - 1.3rem);
+}
+.home footer .footer .footer-bottom .footer-bottom-left .footer-bottom-img {
+  display: block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin: 0.03rem 0.15rem 0;
+  border-radius: 50%;
+  float: left;
+  animation: imgroll 10s linear 0s infinite;
+  animation-play-state: paused;
+}
+@keyframes imgroll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home footer .footer .footer-bottom .footer-bottom-left .footer-songName {
+  width: calc(100% - .9rem);
+  color: #ff5249;
+}
+.home footer .footer .footer-bottom .footer-bottom-left .footer-songName .songName1 {
+  margin-top: 0.1rem;
+  font-size: 0.14rem;
+}
+.home footer .footer .footer-bottom .footer-bottom-left .footer-songName .songName2 {
+  font-size: 0.12rem;
+}
+.home footer .footer .footer-bottom .footer-bottom-right {
+  width: 1.3rem;
+  height: 0.62rem;
+}
+.home footer .footer .footer-bottom .footer-bottom-right span {
+  height: 100%;
+  display: block;
+  float: left;
+}
+.home footer .footer .footer-bottom .footer-bottom-right .footer-bottom-right-menu {
+  width: 0.4rem;
+  background-image: url(../icon/展开菜单.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.28rem 0.28rem;
+}
+.home footer .footer .footer-bottom .footer-bottom-right .footer-bottom-right-next {
+  width: 0.4rem;
+  background-image: url(../icon/下一首.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.28rem 0.28rem;
+}
+.home footer .footer .footer-bottom .footer-bottom-right .footer-bottom-right-play {
+  width: 0.5rem;
+  background-image: url(../icon/播放.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 0.26rem 0.26rem;
+}
+.home .lately {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: fixed;
+  top: 100%;
+  display: none;
+  background: rgba(13, 13, 13, 0.5);
+}
+.home .lately .lately-box {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  background: #fff;
+  font-size: 0.16rem;
+}
+.home .lately .lately-box .lately-box-top {
+  padding: 0.1rem 0.15rem;
+  font-size: 0.14rem;
+  border-bottom: 1px solid #F2F2F2;
+  box-shadow: 0 5px 10px 1px rgba(13, 13, 13, 0.3);
+}
+.home .lately .lately-box .lately-box-top .lately-box-topName {
+  height: 0.24rem;
+  line-height: 0.24rem;
+}
+.home .lately .lately-box .lately-box-top .lat-icon {
+  background: url(../icon/列表循环.png) no-repeat center center;
+  background-size: 0.24rem 0.24rem;
+}
+.home .lately .lately-box .lately-box-bottom {
+  overflow-y: auto;
+  height: calc(100% - .45rem);
+  padding: 10px 0;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list {
+  width: 100%;
+  padding: 0.05rem 0.15rem;
+  border-bottom: 1px solid #F2F2F2;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song {
+  width: calc(100% - .58rem);
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song .lately-order {
+  width: 0.34rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  margin: 0.02rem 0.1rem 0 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song .lately-order .lately-num {
+  font-size: 0.14rem;
+  text-align: center;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song .lately-order .lately-img {
+  display: none;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song .lately-song {
+  width: calc(100% - .54rem);
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song .lately-song .lately-song-name {
+  font-size: 0.14rem;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-song .lately-song .lately-song-singer {
+  font-size: 0.12rem;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-icon {
+  padding: 0.08rem 0;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-icon i {
+  float: right;
+  margin-left: 0.1rem;
+}
+.home .lately .lately-box .lately-box-bottom .lately-list .lately-list-icon span {
+  width: 0.24rem;
+  height: 0.24rem;
+  display: block;
+  float: right;
+  background: url("../icon/爱心2.png") no-repeat center center;
+  background-size: 0.24rem 0.24rem;
+}
+.home .lately .lately-box i {
+  width: 0.24rem;
+  height: 0.24rem;
+  display: block;
+}
+.home .lately .lately-box .del {
+  background: url(../icon/del.png) no-repeat center center;
+  background-size: 0.24rem 0.24rem;
+}
+.home .prompt {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.home .prompt .prompt-box {
+  width: 0.5rem;
+  height: 0.4rem;
+  margin: calc(6.76rem / 2) auto 0;
+}
+.home .prompt .prompt-box i {
+  width: 0.03rem;
+  margin: 0 0.03rem;
+  height: 0.4rem;
+  background: #000;
+  display: block;
+  float: left;
+}
+.home .prompt .prompt-box .prompt1 {
+  animation: prompts 0.3s linear 0s infinite alternate;
+}
+.home .prompt .prompt-box .prompt2 {
+  animation: prompts 0.3s linear 0.1s infinite alternate;
+}
+.home .prompt .prompt-box .prompt3 {
+  animation: prompts 0.3s linear 0.2s infinite alternate;
+}
+.home .prompt .prompt-box .prompt4 {
+  animation: prompts 0.3s linear 0.3s infinite alternate;
+}
+.home .prompt .prompt-box .prompt5 {
+  animation: prompts 0.3s linear 0.4s infinite alternate;
+}
+.home .play {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 100%;
+  display: none;
+}
+.home .play .play-back {
+  background: url(../img/播放.jpg) no-repeat center center;
+  background-size: cover;
+}
+.home .play .play-page {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.home .play .play-top {
+  height: calc(100% - 1.3rem);
+  width: 100%;
+  z-index: 3;
+  position: relative;
+}
+.home .play .play-top .header {
+  height: 0.18rem;
+  background: #000;
+}
+.home .play .play-top .play-title {
+  height: 0.45rem;
+  position: relative;
+  margin: 0.1rem 0;
+}
+.home .play .play-top .play-title .paly-return {
+  width: 0.22rem;
+  height: 0.22rem;
+  margin: 0.1rem 0.1rem;
+  position: absolute;
+  background: url(../icon/返回.png) no-repeat center center;
+  background-size: 0.22rem 0.22rem;
+}
+.home .play .play-top .play-title .play-songinfo {
+  width: calc(100% - .88rem);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #f7554c;
+}
+.home .play .play-top .play-title .play-songinfo .play-song {
+  font-size: 0.16rem;
+}
+.home .play .play-top .play-title .play-songinfo .play-artist {
+  font-size: 0.14rem;
+}
+.home .play .play-top .play-title .paly-share {
+  width: 0.22rem;
+  height: 0.22rem;
+  margin: 0.1rem 0.1rem;
+  position: absolute;
+  right: 0;
+  background: url(../icon/分享.png) no-repeat center center;
+  background-size: 0.22rem 0.22rem;
+}
+.home .play .play-top .play-lyric {
+  width: 100%;
+  height: calc(100% - .83rem);
+  z-index: 3;
+  position: absolute;
+  overflow: hidden;
+}
+.home .play .play-top .play-lyric .play-lyric-box {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: 0;
+  margin: 0 auto;
+}
+.home .play .play-top .play-lyric .play-lyric-box p {
+  width: 100%;
+  height: 0.2rem;
+  z-index: 3;
+  font-size: 0.16rem;
+  text-align: center;
+  color: red;
+  margin: 0 0 0.15rem;
+}
+.home .play .play-top .play-lyric .play-lyric-box .active {
+  color: #D3D5F5;
+}
+.home .play .play-bottom {
+  width: 100%;
+  height: 1.4rem;
+  position: absolute;
+  bottom: 0;
+  background: #D3D5F5;
+  z-index: 3;
+}
+.home .play .play-bottom .play-icon1 {
+  width: 100%;
+  height: 0.4rem;
+  padding: 0.1rem 0.2rem 0;
+}
+.home .play .play-bottom .play-icon1 span {
+  width: calc((100% - .2rem) /5);
+  height: 0.3rem;
+  display: block;
+  float: left;
+}
+.home .play .play-bottom .play-icon1 span:nth-child(1) {
+  background: url(../icon/爱心3.png);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: 0.24rem 0.24rem;
+}
+.home .play .play-bottom .play-icon1 span:nth-child(2) {
+  background: url(../icon/视频.png);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: 0.24rem 0.24rem;
+}
+.home .play .play-bottom .play-icon1 span:nth-child(3) {
+  background: url(../icon/下载.png);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: 0.24rem 0.24rem;
+}
+.home .play .play-bottom .play-icon1 span:nth-child(4) {
+  background: url(../icon/留言-断点.png);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: 0.24rem 0.24rem;
+}
+.home .play .play-bottom .play-icon1 span:nth-child(5) {
+  background: url(../icon/menu.png);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: 0.24rem 0.24rem;
+}
+.home .play .play-bottom .play-bottom-progress {
+  padding: 0.15rem 0.15rem;
+  position: relative;
+}
+.home .play .play-bottom .play-bottom-progress span {
+  width: 0.29rem;
+  height: 0.18rem;
+  font-size: 0.12rem;
+  color: #ff5249;
+  margin: -0.07rem 0 0;
+}
+.home .play .play-bottom .play-bottom-progress .play-progress {
+  width: 2.8rem;
+  height: 0.12rem;
+  margin: 0 0.08rem 0 0.31rem;
+  position: absolute;
+}
+.home .play .play-bottom .play-bottom-progress .play-progress .activate {
+  width: calc(100% );
+  height: 0.05rem;
+  background: #ff5249;
+  border-radius: 5rem;
+  position: absolute;
+}
+.home .play .play-bottom .play-bottom-progress .play-progress .noactivate {
+  z-index: 2;
+  height: 0.05rem;
+  background: #fff;
+  border-radius: 5rem;
+  position: absolute;
+}
+.home .play .play-bottom .play-bottom-progress .play-progress .sliding {
+  z-index: 3;
+  width: 0.05rem;
+  height: 0.1rem;
+  left: 0rem;
+  border-radius: 5rem;
+  top: 0;
+  margin-top: -0.02rem;
+  position: absolute;
+  background: blue;
+}
+.home .play .play-bottom .play-bottom-progress .play-progress .bound {
+  width: calc(100% );
+  height: 0.12rem;
+  z-index: 4;
+  position: absolute;
+  top: -0.03rem;
+}
+.home .play .play-bottom .play-icon2 {
+  width: 100%;
+  height: 0.58rem;
+  padding: 0 0.15rem;
+}
+.home .play .play-bottom .play-icon2 .play-icon2-cir {
+  width: 15% ;
+  height: 0.4rem;
+  background: url(../icon/随机播放.png) no-repeat center center;
+  background-size: 0.2rem 0.2rem;
+}
+.home .play .play-bottom .play-icon2 .play-icon2-pri {
+  width: 15% ;
+  height: 0.4rem;
+  background: url(../icon/上一首.png) no-repeat center center;
+  background-size: 0.3rem 0.3rem;
+}
+.home .play .play-bottom .play-icon2 .play-icon2-play {
+  width: 35% ;
+  height: 0.4rem;
+  background: url(../icon/播放.png) no-repeat center center;
+  background-size: 0.35rem 0.35rem;
+}
+.home .play .play-bottom .play-icon2 .play-icon2-next {
+  width: 15% ;
+  height: 0.4rem;
+  background: url(../icon/下一首.png) no-repeat center center;
+  background-size: 0.3rem 0.3rem;
+}
+.home .play .play-bottom .play-icon2 .play-icon2-menu {
+  background: url(../icon/menu.png) no-repeat center center;
+  width: 15% ;
+  height: 0.4rem;
+  background-size: 0.2rem 0.2rem;
+}
+@keyframes prompts {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.2, 0.2);
+  }
+}
